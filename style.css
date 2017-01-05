@@ -1,0 +1,193 @@
+/*  GENERAL  */
+
+/* COLORS 
+
+Black #000
+Blue #68BBE8
+Light Gray #D3D4D9
+Dark Gray #6B717E
+Off White #F4FAFF
+
+*/
+
+body {
+	background-color: #000;
+	color: #6B717E;
+}
+
+a {
+	text-decoration: none;
+	color: #F4FAFF;
+}
+
+h1 {
+	font-size: 1.5em;
+}
+
+/*  NAVIGATION  */
+
+nav {
+	padding: 15px;
+}
+
+nav ul {
+	float: right;
+	padding: 15px 0;
+}
+
+nav ul li {
+	padding: 0 5px;
+	display: inline;
+}
+
+.main-logo {
+	border-radius: 50%;
+	float: left;
+	display: inline;
+	padding: 15px 20px;
+}
+
+.content-section {
+	background-color: #F4FAFF;
+	margin: 150px 0 0 0;
+}
+
+/*  ABOUT SECTION  */
+
+.main {
+	margin: 20px;
+	padding: 20px 15px 20px 15px;
+}
+
+.main h1 {
+	text-align: center;
+}
+
+.legend {
+	text-align: center;
+}
+
+.legend ul {
+	padding: 0;
+}
+
+.legend li {
+	list-style: none;
+	padding: 5px;
+	display: inline-block;
+}
+
+.js-tag {
+	background: #68BBE8;
+	height: 10px;
+	width: 10px;
+	float: left;
+	display: inline;
+	margin: 4px 5px;
+}
+
+.ruby-tag{
+	background: #68BBE8;
+	height: 10px;
+	width: 10px;
+	float: left;
+	display: inline;
+	margin: 4px 5px;
+}
+
+.web-tag{
+	background: #68BBE8;
+	height: 10px;
+	width: 10px;
+	float: left;
+	display: inline;
+	margin: 4px 5px;
+}
+
+.cs-tag {
+	background: #68BBE8;
+	height: 10px;
+	width: 10px;
+	float: left;
+	display: inline;
+	margin: 4px 5px;
+}
+
+.meetups-tag {
+	background: #68BBE8;
+	height: 10px;
+	width: 10px;
+	float: left;
+	display: inline;
+	margin: 4px 5px;
+}
+
+.projects-tag {
+	background: #68BBE8;
+	height: 10px;
+	width: 10px;
+	float: left;
+	display: inline;
+	margin: 4px 5px;
+}
+
+.blog-tag {
+	background: #68BBE8;
+	height: 10px;
+	width: 10px;
+	float: left;
+	display: inline;
+	margin: 4px 5px;
+}
+
+
+/*  CALENDAR  */
+
+.calendar h2 {
+	text-align: center;
+	background-color: #68BBE8;
+	color: #FFF;
+	width: 50%;
+	margin: 0 auto;
+	padding: 5px;
+	border: 2px solid #000;
+}
+
+.calendar ul {
+	list-style: none;
+	padding: 0;
+	clear: both;
+}
+
+.day {
+	border: 3px solid #D3D4D9;
+	width: 85%;
+	margin: 20px auto 5px auto;
+	padding: 10px;
+}
+
+.date {
+	background-color: #000;
+	width: 20px;
+	height: 20px;
+	color: #FFF;
+	padding: 5px;
+	border-radius: 50%;
+	text-align: center;
+	display: inline;
+	float: left;
+}
+
+.day-name {
+	display: inline;
+	float: left;
+	padding: 5px 0 0 10px;
+}
+
+
+
+/*  FOOTER  */
+
+/*  TABLET  */
+
+/*  DESKTOP  */
