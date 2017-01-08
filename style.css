@@ -27,12 +27,11 @@ h1 {
 /*  NAVIGATION  */
 
 nav {
-	padding: 15px;
+	padding: 5px;
 }
 
 nav ul {
-	float: right;
-	padding: 15px 0;
+	padding: 5px 0;
 }
 
 nav ul li {
@@ -40,16 +39,8 @@ nav ul li {
 	display: inline;
 }
 
-.main-logo {
-	border-radius: 50%;
-	float: left;
-	display: inline;
-	padding: 15px 20px;
-}
-
 .content-section {
 	background-color: #F4FAFF;
-	margin: 150px 0 0 0;
 }
 
 /*  ABOUT SECTION  */
@@ -143,6 +134,10 @@ nav ul li {
 
 /*  CALENDAR  */
 
+.calendar {
+	padding: 0 0 10px 0;
+}
+
 .calendar h2 {
 	text-align: center;
 	background-color: #68BBE8;
@@ -184,10 +179,45 @@ nav ul li {
 	padding: 5px 0 0 10px;
 }
 
-
-
 /*  FOOTER  */
+
+footer {
+	color: #FFF;
+	padding: 10px;
+	text-align: center;
+}
+
 
 /*  TABLET  */
 
+@media screen and (min-width: 500px) {
+
+	.calendar {
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.day {
+		display: inline-block;
+		max-width: 40%;
+		min-width: 20%;
+		text-align: left;
+	}
+}
+
 /*  DESKTOP  */
+
+@media screen and (min-width: 1000px) {
+
+	.calendar {
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.day {
+		display: inline-block;
+		min-width: 20%;
+		max-width: 20%;
+		text-align: left;
+	}
+}
