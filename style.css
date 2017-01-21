@@ -159,6 +159,7 @@ nav ul li {
 	width: 85%;
 	margin: 20px auto 5px auto;
 	padding: 10px;
+	min-height: 200px;
 }
 
 .date {
@@ -185,39 +186,6 @@ footer {
 	color: #FFF;
 	padding: 10px;
 	text-align: center;
-}
-
-
-/*  TABLET  */
-
-@media screen and (min-width: 500px) {
-
-	.calendar {
-		margin: 0 auto;
-		text-align: center;
-	}
-
-	.day {
-		display: inline-block;
-		max-width: 40%;
-		min-width: 20%;
-		text-align: left;
-	}
-}
-
-/*  DESKTOP  */
-
-@media screen and (min-width: 1000px) {
-
-	.calendar {
-		margin: 0 auto;
-		text-align: center;
-	}
-
-	.day {
-		display: inline-block;
-		min-width: 20%;
-		max-width: 20%;
-		text-align: left;
-	}
+	position: fixed;
+	height: 30px;
 }
